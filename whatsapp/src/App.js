@@ -8,6 +8,7 @@ function App() {
     <div className="app">
       <div className="app__body">
         <Sidebar />
+        <div className = "vl"/>
         <Chat />
       </div>
     </div>
