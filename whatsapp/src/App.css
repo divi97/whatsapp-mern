@@ -1,16 +1,43 @@
-.app {
+.landing__app {
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 90vh;
     background-color: #dadbd3;
+    z-index: -1;
+}
+
+.landing__header {
+    background-color:#00bfa5;
+    height: 20vh;
+    z-index: -1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp-logo {
+    display: inline-block;
+    margin-left: 14px;
+    vertical-align: top;
+}
+
+.landing__headerTitle {
+    margin-left: 14px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    /* vertical-align: middle; */
 }
 
 .app__body {
     display: flex;
     background-color: #ededed;
-    /* margin-top: -50px; */
+    margin-top: -130px;
     height: 90vh;
-    width: 90vw;
+    width: 80vw;
     box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
 }
 

@@ -7,7 +7,7 @@ import Pusher from 'pusher-js'
 
 function App() {
   const [messages, setMessages] = useState([])
-  
+
   useEffect(() => {
     axios.get('/messages/sync')
       .then(response => {
@@ -37,10 +37,20 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app__body">
-        <Sidebar />
-        <div className="vl" />
-        <Chat messages = { messages }/>
+      <div className="landing__header" >
+        <span className="whatsapp-logo">
+          <img src="./whatsapp.png" alt="whatsapp-logo" />
+        </span>
+        <div className="landing__headerTitle">
+          WHATSAPP WEB
+      </div>
+      </div>
+      <div className="landing__app">
+        <div className="app__body">
+          <Sidebar />
+          <div className="vl" />
+          <Chat messages={messages} />
+        </div>
       </div>
     </div>
   );
