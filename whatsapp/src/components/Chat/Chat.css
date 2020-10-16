@@ -97,6 +97,8 @@
     padding: 10px;
     border: none;
     outline-width: 0;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .chat__footer > form > button {

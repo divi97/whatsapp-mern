@@ -44,3 +44,14 @@
 .vl {
     border-left: 1px solid #ffffff;
 }
+
+@media screen and (max-width: 1440px) {
+    .landing__app {
+        place-items: normal;
+
+        .app__body {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

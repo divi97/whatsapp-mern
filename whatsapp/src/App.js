@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import './App.scss';
 import Chat from "./components/Chat/Chat";
 import Sidebar from "./components/Sidebar/Sidebar";
 import axios from './axios'
